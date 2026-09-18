@@ -8,7 +8,6 @@ The notebooks document the complete development workflow for the Industrial Surf
 |---|---|---|
 | 01 | `01_MVTec_Tile_Data_Validation_and_Splitting.ipynb` | Dataset validation, EDA, leakage checks, and split manifests |
 | 02 | `02_MVTec_Tile_Baseline_and_Transfer_Learning.ipynb` | Baseline CNN and MobileNetV2 development/smoke tests |
-| 02W | `02_MVTec_Tile_Baseline_and_Transfer_Learning_working.ipynb` | Protected working version used during development |
 | 03 | `03_MVTec_Tile_Standard_Training.ipynb` | Standard training experiments |
 | 04 | `04_MVTec_Tile_Validation_Analysis_and_Threshold_Selection.ipynb` | Validation metrics and threshold analysis |
 | 05 | `05_MVTec_Tile_Controlled_Fine_Tuning.ipynb` | Controlled MobileNetV2 fine-tuning |
