@@ -2,7 +2,7 @@
 
 This project develops a supervised binary image classifier for the **Tile** category of MVTec AD. The operational classes are **Good** and **Defective**. The workflow includes leakage-safe data splitting, exploratory analysis, a custom CNN baseline, MobileNetV2 transfer learning, controlled fine-tuning, validation-only threshold calibration, Grad-CAM explanations, a confidence-based human-review policy, and one locked final test evaluation.
 
-## Final result
+## Final Result
 
 The selected model is a fine-tuned MobileNetV2. The last 20 backbone layers were made eligible for training while BatchNormalization layers remained frozen. Fine-tuning used Adam with a learning rate of `1e-5`, training-only augmentation, class weights, checkpointing, early stopping, and learning-rate reduction.
 
@@ -28,7 +28,7 @@ Final locked test results on 51 images:
 
 The locked human-review policy referred one image for review. Two defects (`gray_stroke` and `rough`) were automatically classified as Good. This limitation is reported without adjusting thresholds after test evaluation.
 
-## Scientific scope and caveat
+## Scientific Scope and Caveat
 
 MVTec AD was originally designed for unsupervised anomaly detection. This project deliberately reformulates the Tile category as supervised binary classification. Original images were assigned to train, validation, and test manifests with fixed seeds and duplicate/group leakage checks. Augmentation occurs only in the training pipeline. Hyperparameters and thresholds are selected only with validation data.
 
@@ -67,15 +67,18 @@ Industrial-surface-defect-detection/
 │   └── README.md
 │
 ├── outputs/
+│   ├── analysis/
+│   ├── figures/
+│   ├── models/
+│   │   └── histories/
 │   └── README.md
 │
 └── docs/
-    ├── Industrial_Surface_Defect_Detection_Final_Report.pdf
-    └── Industrial_Surface_Defect_Detection_Presentation_Practice_Guide.docx
+    ├── Industrial_Surface_Defect_Detection_Final_Presentation.pptx
+    └── Industrial_Surface_Defect_Detection_Final_Report.pdf
+```
 
-
-
-## Notebook workflow
+## Notebook Workflow
 
 Run or review the notebooks in numerical order:
 
@@ -89,7 +92,6 @@ Run or review the notebooks in numerical order:
 8. `07_MVTec_Tile_GradCAM_Explainability.ipynb` - Grad-CAM analysis for correct, false-positive, and low-confidence validation examples.
 9. `08_MVTec_Tile_Final_Test_Evaluation.ipynb` - locked, one-time final test evaluation.
 10. `09_MVTec_Tile_Final_Project_Summary.ipynb` - presentation-ready synthesis of the executed project.
-
 
 ## Reproducibility
 
@@ -106,7 +108,7 @@ jupyter notebook
 
 ImageNet weights may be downloaded automatically by Keras if they are not already present in the configured Keras cache. Native Windows TensorFlow 2.21 executes this project on CPU; GPU use generally requires WSL2 or another supported environment.
 
-## Interpretation limitations
+## Interpretation Limitations
 
 - The validation and test sets contain few defective examples, so subgroup recall estimates are uncertain.
 - The supervised reformulation differs from the original anomaly-detection purpose of MVTec AD.
@@ -114,6 +116,6 @@ ImageNet weights may be downloaded automatically by Keras if they are not alread
 - Grad-CAM provides coarse gradient-based spatial sensitivity, not a causal explanation.
 - The current work is an experimental prototype, not a production inspection system.
 
-## Data source
+## Data Source
 
 MVTec AD: P. Bergmann et al., *MVTec AD - A Comprehensive Real-World Dataset for Unsupervised Anomaly Detection*, CVPR 2019.
