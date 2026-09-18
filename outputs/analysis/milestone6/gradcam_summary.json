@@ -1,0 +1,18 @@
+{
+  "model": "mobilenetv2_finetuned_standard_best.keras",
+  "target_layer": "Conv_1",
+  "selected_examples": 11,
+  "categories": {
+    "Low confidence / review": 4,
+    "False positive": 3,
+    "Correct defective": 2,
+    "Correct good": 2
+  },
+  "false_negatives_available": 0,
+  "binary_threshold": 0.1526661366224289,
+  "low_threshold": 0.1526661366224289,
+  "high_threshold": 0.439,
+  "maximum_probability_reproduction_error": 2.117992095929111e-06,
+  "test_evaluated": false,
+  "interpretation_warning": "Grad-CAM indicates spatial sensitivity associated with the prediction; it is not a causal explanation."
+}
