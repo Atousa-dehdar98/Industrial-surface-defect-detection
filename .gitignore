@@ -29,8 +29,14 @@ tile/
 *.weights.h5
 
 # Large training artifacts
-outputs/models/
-outputs/histories/
+outputs/models/*.h5
+outputs/models/**/*.h5
+outputs/models/*.keras
+outputs/models/**/*.keras
+outputs/models/*.ckpt
+outputs/models/**/*.ckpt
+outputs/models/*.weights.h5
+outputs/models/**/*.weights.h5
 outputs/logs/
 
 # Temporary/generated files
