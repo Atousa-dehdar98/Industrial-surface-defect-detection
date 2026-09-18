@@ -1,0 +1,21 @@
+{
+  "run_mode": "smoke",
+  "source_model": "mobilenetv2_transfer_best.keras",
+  "unfreeze_last_n": 20,
+  "fine_tune_learning_rate": 1e-05,
+  "epochs_completed": 1,
+  "best_epoch": 1,
+  "runtime_seconds": 14.603186100008315,
+  "train_images": 64,
+  "validation_images": 32,
+  "reserved_test_images": 51,
+  "test_evaluated": false,
+  "best_validation_metrics": {
+    "val_accuracy": 0.875,
+    "val_loss": 0.24886029958724976,
+    "val_pr_auc": 0.878639817237854,
+    "val_precision": 0.8333333134651184,
+    "val_recall": 0.625,
+    "val_roc_auc": 0.9583333730697632
+  }
+}
