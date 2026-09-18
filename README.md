@@ -49,7 +49,6 @@ Industrial-surface-defect-detection/
 ├── notebooks/
 │   ├── 01_MVTec_Tile_Data_Validation_and_Splitting.ipynb
 │   ├── 02_MVTec_Tile_Baseline_and_Transfer_Learning.ipynb
-│   ├── 02_MVTec_Tile_Baseline_and_Transfer_Learning_working.ipynb
 │   ├── 03_MVTec_Tile_Standard_Training.ipynb
 │   ├── 04_MVTec_Tile_Validation_Analysis_and_Threshold_Selection.ipynb
 │   ├── 05_MVTec_Tile_Controlled_Fine_Tuning.ipynb
