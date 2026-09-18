@@ -20,12 +20,13 @@ outputs/
 │   └── milestone7/
 │
 ├── models/
-└── histories/
+│   └── histories/
+└── README.md
 ```
 
-## Important Files Used by the Final Report
+## Important Analysis Files
 
-The report-generation workflow uses analysis summaries including:
+The final report workflow uses analysis summaries including:
 
 ```text
 outputs/analysis/milestone3/validation_threshold_selection_summary.json
@@ -34,11 +35,13 @@ outputs/analysis/milestone6/gradcam_summary.json
 outputs/analysis/milestone7/final_test_evaluation_summary.json
 ```
 
-Important figures include:
+Selected supporting CSV files are also retained in the milestone folders for validation, threshold, Grad-CAM, and final-test analysis.
+
+## Important Figures
 
 ```text
 outputs/figures/milestone4/mobilenetv2_finetuned_standard_learning_curves.png
-outputs/figures/milestone6/gradcam/fine_tuned_validation_gradcam_panel.png
+outputs/figures/milestone6/fine_tuned_validation_gradcam_panel.png
 outputs/figures/milestone7/final_test_metrics.png
 outputs/figures/milestone7/final_test_error_examples.png
 ```
