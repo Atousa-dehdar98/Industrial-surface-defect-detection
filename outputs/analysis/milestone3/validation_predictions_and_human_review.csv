@@ -1,0 +1,55 @@
+image_id,source_path,predicted_probability_defective,predicted_class_binary,final_decision,true_label,correct_or_incorrect,defect_type,error_type
+test/crack/000.png,D:\Final Project\data\raw\mvtec_ad\tile\test\crack\000.png,0.99999005,defective,Defective,defective,correct,crack,correct
+test/crack/002.png,D:\Final Project\data\raw\mvtec_ad\tile\test\crack\002.png,0.99994236,defective,Defective,defective,correct,crack,correct
+test/crack/016.png,D:\Final Project\data\raw\mvtec_ad\tile\test\crack\016.png,0.9998032,defective,Defective,defective,correct,crack,correct
+test/glue_strip/005.png,D:\Final Project\data\raw\mvtec_ad\tile\test\glue_strip\005.png,0.9664044,defective,Defective,defective,correct,glue_strip,correct
+test/glue_strip/009.png,D:\Final Project\data\raw\mvtec_ad\tile\test\glue_strip\009.png,0.8480739,defective,Defective,defective,correct,glue_strip,correct
+test/glue_strip/017.png,D:\Final Project\data\raw\mvtec_ad\tile\test\glue_strip\017.png,0.9973794,defective,Defective,defective,correct,glue_strip,correct
+test/good/002.png,D:\Final Project\data\raw\mvtec_ad\tile\test\good\002.png,0.054213975,good,Good,good,correct,good,correct
+test/good/011.png,D:\Final Project\data\raw\mvtec_ad\tile\test\good\011.png,0.13368756,good,Good,good,correct,good,correct
+test/good/019.png,D:\Final Project\data\raw\mvtec_ad\tile\test\good\019.png,0.1344836,good,Good,good,correct,good,correct
+test/good/024.png,D:\Final Project\data\raw\mvtec_ad\tile\test\good\024.png,0.15295151,good,Good,good,correct,good,correct
+test/good/027.png,D:\Final Project\data\raw\mvtec_ad\tile\test\good\027.png,0.2549366,good,Needs Human Review,good,not_applicable_review,good,correct
+test/gray_stroke/001.png,D:\Final Project\data\raw\mvtec_ad\tile\test\gray_stroke\001.png,0.45023856,defective,Needs Human Review,defective,not_applicable_review,gray_stroke,correct
+test/gray_stroke/005.png,D:\Final Project\data\raw\mvtec_ad\tile\test\gray_stroke\005.png,0.17050777,good,Needs Human Review,defective,not_applicable_review,gray_stroke,false_negative
+test/gray_stroke/006.png,D:\Final Project\data\raw\mvtec_ad\tile\test\gray_stroke\006.png,0.7293008,defective,Defective,defective,correct,gray_stroke,correct
+test/oil/008.png,D:\Final Project\data\raw\mvtec_ad\tile\test\oil\008.png,0.81292236,defective,Defective,defective,correct,oil,correct
+test/oil/012.png,D:\Final Project\data\raw\mvtec_ad\tile\test\oil\012.png,0.99426985,defective,Defective,defective,correct,oil,correct
+test/oil/014.png,D:\Final Project\data\raw\mvtec_ad\tile\test\oil\014.png,0.4648066,defective,Needs Human Review,defective,not_applicable_review,oil,correct
+test/rough/001.png,D:\Final Project\data\raw\mvtec_ad\tile\test\rough\001.png,0.8099974,defective,Defective,defective,correct,rough,correct
+test/rough/007.png,D:\Final Project\data\raw\mvtec_ad\tile\test\rough\007.png,0.45392278,defective,Needs Human Review,defective,not_applicable_review,rough,correct
+train/good/000.png,D:\Final Project\data\raw\mvtec_ad\tile\train\good\000.png,0.15967412,good,Good,good,correct,good,correct
+train/good/003.png,D:\Final Project\data\raw\mvtec_ad\tile\train\good\003.png,0.12801036,good,Good,good,correct,good,correct
+train/good/024.png,D:\Final Project\data\raw\mvtec_ad\tile\train\good\024.png,0.1345325,good,Good,good,correct,good,correct
+train/good/026.png,D:\Final Project\data\raw\mvtec_ad\tile\train\good\026.png,0.051272903,good,Good,good,correct,good,correct
+train/good/030.png,D:\Final Project\data\raw\mvtec_ad\tile\train\good\030.png,0.07380888,good,Good,good,correct,good,correct
+train/good/041.png,D:\Final Project\data\raw\mvtec_ad\tile\train\good\041.png,0.14412895,good,Good,good,correct,good,correct
+train/good/042.png,D:\Final Project\data\raw\mvtec_ad\tile\train\good\042.png,0.0659444,good,Good,good,correct,good,correct
+train/good/044.png,D:\Final Project\data\raw\mvtec_ad\tile\train\good\044.png,0.08826147,good,Good,good,correct,good,correct
+train/good/050.png,D:\Final Project\data\raw\mvtec_ad\tile\train\good\050.png,0.26871556,good,Needs Human Review,good,not_applicable_review,good,correct
+train/good/053.png,D:\Final Project\data\raw\mvtec_ad\tile\train\good\053.png,0.038873713,good,Good,good,correct,good,correct
+train/good/054.png,D:\Final Project\data\raw\mvtec_ad\tile\train\good\054.png,0.051979657,good,Good,good,correct,good,correct
+train/good/063.png,D:\Final Project\data\raw\mvtec_ad\tile\train\good\063.png,0.09511662,good,Good,good,correct,good,correct
+train/good/065.png,D:\Final Project\data\raw\mvtec_ad\tile\train\good\065.png,0.06783351,good,Good,good,correct,good,correct
+train/good/078.png,D:\Final Project\data\raw\mvtec_ad\tile\train\good\078.png,0.5924944,defective,Needs Human Review,good,not_applicable_review,good,false_positive
+train/good/082.png,D:\Final Project\data\raw\mvtec_ad\tile\train\good\082.png,0.11515171,good,Good,good,correct,good,correct
+train/good/087.png,D:\Final Project\data\raw\mvtec_ad\tile\train\good\087.png,0.1256062,good,Good,good,correct,good,correct
+train/good/088.png,D:\Final Project\data\raw\mvtec_ad\tile\train\good\088.png,0.08409435,good,Good,good,correct,good,correct
+train/good/097.png,D:\Final Project\data\raw\mvtec_ad\tile\train\good\097.png,0.07503602,good,Good,good,correct,good,correct
+train/good/109.png,D:\Final Project\data\raw\mvtec_ad\tile\train\good\109.png,0.12337721,good,Good,good,correct,good,correct
+train/good/122.png,D:\Final Project\data\raw\mvtec_ad\tile\train\good\122.png,0.12000934,good,Good,good,correct,good,correct
+train/good/125.png,D:\Final Project\data\raw\mvtec_ad\tile\train\good\125.png,0.11241024,good,Good,good,correct,good,correct
+train/good/134.png,D:\Final Project\data\raw\mvtec_ad\tile\train\good\134.png,0.05558255,good,Good,good,correct,good,correct
+train/good/142.png,D:\Final Project\data\raw\mvtec_ad\tile\train\good\142.png,0.1408595,good,Good,good,correct,good,correct
+train/good/149.png,D:\Final Project\data\raw\mvtec_ad\tile\train\good\149.png,0.26271603,good,Needs Human Review,good,not_applicable_review,good,correct
+train/good/164.png,D:\Final Project\data\raw\mvtec_ad\tile\train\good\164.png,0.3301586,good,Needs Human Review,good,not_applicable_review,good,correct
+train/good/166.png,D:\Final Project\data\raw\mvtec_ad\tile\train\good\166.png,0.16455482,good,Good,good,correct,good,correct
+train/good/168.png,D:\Final Project\data\raw\mvtec_ad\tile\train\good\168.png,0.807148,defective,Defective,good,incorrect,good,false_positive
+train/good/171.png,D:\Final Project\data\raw\mvtec_ad\tile\train\good\171.png,0.10721734,good,Good,good,correct,good,correct
+train/good/172.png,D:\Final Project\data\raw\mvtec_ad\tile\train\good\172.png,0.08349804,good,Good,good,correct,good,correct
+train/good/203.png,D:\Final Project\data\raw\mvtec_ad\tile\train\good\203.png,0.20911457,good,Needs Human Review,good,not_applicable_review,good,correct
+train/good/208.png,D:\Final Project\data\raw\mvtec_ad\tile\train\good\208.png,0.09757165,good,Good,good,correct,good,correct
+train/good/209.png,D:\Final Project\data\raw\mvtec_ad\tile\train\good\209.png,0.087307885,good,Good,good,correct,good,correct
+train/good/219.png,D:\Final Project\data\raw\mvtec_ad\tile\train\good\219.png,0.06442078,good,Good,good,correct,good,correct
+train/good/224.png,D:\Final Project\data\raw\mvtec_ad\tile\train\good\224.png,0.1079066,good,Good,good,correct,good,correct
+train/good/228.png,D:\Final Project\data\raw\mvtec_ad\tile\train\good\228.png,0.067521416,good,Good,good,correct,good,correct
