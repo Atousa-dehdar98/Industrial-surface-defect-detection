@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local configuration
+.env
+*.env
+
+# Raw dataset - do not commit
+data/raw/
+data/raw/**
+mvtec_ad/
+tile/
+
+# Generated model/checkpoint files
+*.h5
+*.keras
+*.ckpt
+*.weights.h5
+
+# Large training artifacts
+outputs/models/
+outputs/histories/
+outputs/logs/
+
+# Temporary/generated files
+*.tmp
+*.temp
+*.log
+*.bak
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# OS / notebook temporary files
+*.swp
+*.swo
